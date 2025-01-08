@@ -14,7 +14,7 @@ variables:
 
   # IaC
   baseName: $(prefix)$(postfix)$(environment)
-  resourceGroupName: P5-$(baseName)-RG #You also need to change the ResourceGroupname in main.bicep file
+  resourceGroupName: rganalyticsinabox #You also need to change the ResourceGroupname in main.bicep file
   sqlServerName: $(prefix)-sqlsrc-$(postfix)-$(environment)
   synapseWorkSpaceName: $(prefix)-synapse-$(postfix)-$(environment)
   dataLakeg2SynapseName: $(prefix)adlssyn$(postfix)$(environment)
