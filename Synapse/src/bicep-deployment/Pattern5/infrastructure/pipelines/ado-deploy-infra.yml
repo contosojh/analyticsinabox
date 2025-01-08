@@ -17,7 +17,7 @@ parameters:
 
 variables:
     # 'develop' or feature branches: DEV environment
-    - template: ../../../config-infra-dev.yml
+    - template: ../../config-infra-dev.yml
 
 
 
