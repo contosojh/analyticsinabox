@@ -27,7 +27,7 @@ param tags object = {
 }
 
 var baseName  = '${prefix}${postfix}${env}'
-var resourceGroupName = 'rganalyticsinabox'
+var resourceGroupName = 'rgsynapsedemo'
 var sqlServerName = '${prefix}-sqlsrc-${postfix}-${env}'
 var synapseWorkSpaceName = '${prefix}-synapse-${postfix}-${env}'
 var dataLakeg2SynapseName = '${prefix}adlssyn${postfix}${env}'
