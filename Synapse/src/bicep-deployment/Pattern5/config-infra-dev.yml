@@ -3,7 +3,7 @@ variables:
   # Global
   ap_vm_image: windows-2019
 
-  location: eastus 
+  location: eastus2 
   prefix: sa32
   postfix: smcca
   environment: dev
